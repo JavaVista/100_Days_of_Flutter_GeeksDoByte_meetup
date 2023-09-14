@@ -4,6 +4,10 @@ Joined a local Meetup called [GeeksDoByte : Learn to Code](https://www.meetup.co
 
 ## Code Log
 
+### Accountability 
+Click [here](https://twitter.com/intent/tweet?text=I%27m%20completed%20day%201%20of%20the%20100_Days_of_Flutter%20Challenge%20today!%20~Javi&url=https://www.meetup.com/geeksdobyte/events/295952132/) to tweet it to the world!
+
+
 **Day 1**
 
 - Create routes for list screen and text input screen
