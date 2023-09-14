@@ -14,10 +14,10 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: '100 Days of Flutter',
-      home: ListScreen(),
+      home: const ListScreen(),
       routes: {
-        '/list': (context) => ListScreen(),
-        '/input': (context) => TextInputScreen()
+        '/list': (context) => const ListScreen(),
+        '/input': (context) => const TextInputScreen()
         },
     );
   }

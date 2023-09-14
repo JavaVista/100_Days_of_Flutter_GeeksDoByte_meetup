@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class TextInputScreen extends StatefulWidget {
+  const TextInputScreen({super.key});
+
   @override
   _TextInputScreenState createState() => _TextInputScreenState();
 }
@@ -23,7 +25,7 @@ class _TextInputScreenState extends State<TextInputScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Text Input Screen'),
+          title: const Text('Text Input Screen'),
         ),
         body: Padding(
           padding: const EdgeInsets.all(16),

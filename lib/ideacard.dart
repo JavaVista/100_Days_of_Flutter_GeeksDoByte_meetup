@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class IdeaCard extends StatelessWidget {
   final String title;
 
-  IdeaCard({required this.title});
+  const IdeaCard({super.key, required this.title});
 
   @override
   Widget build(BuildContext context) {
